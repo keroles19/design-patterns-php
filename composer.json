@@ -1,0 +1,20 @@
+{
+    "name": "kerol/design-patterns-code",
+    "description": "code example for design patterns in php",
+    "authors": [
+        {
+            "name": "Keroles Atef",
+            "email": "kerolesa_atef@outlook.com"
+        }
+    ],
+    "require": {},
+    
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    },
+    "autoload": {
+        "psr-4" :{
+            "Creational\\" : "Creational"
+        }
+    }
+}
