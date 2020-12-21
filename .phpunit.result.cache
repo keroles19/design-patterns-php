@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":151:{a:2:{s:7:"defects";a:0:{}s:5:"times";a:2:{s:39:"FactoryMethodTest::testCanBuildBmwBrand";d:0.006;s:40:"FactoryMethodTest::testCanBuildBenzBrand";d:0;}}}
