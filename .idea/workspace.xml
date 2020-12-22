@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e45a93-b313-434e-9c8d-ea6314aed017" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Creational/ObjectPool/Car.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/ObjectPool/CarPool.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/ObjectPoolTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/ProtoType/AutomaticCar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/ProtoType/CarProtoType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/ProtoType/ManualCar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/ProtoTypeTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
     </list>
@@ -71,6 +72,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Tests" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -82,8 +84,11 @@
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Creational" />
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Creational\FactoryMethod" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Courses\Design Pattern\design-patterns-php\Tests" />
+    </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.ObjectPoolTest">
+  <component name="RunManager" selected="PHPUnit.ProtoTypeTest">
     <configuration name="FactoryMethodTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="FactoryMethodTest" file="$PROJECT_DIR$/Tests/FactoryMethodTest.php" scope="Class" />
       <method v="2" />
@@ -105,8 +110,13 @@
       <TestRunner class="ObjectPoolTest" file="$PROJECT_DIR$/Tests/ObjectPoolTest.php" scope="Class" />
       <method v="2" />
     </configuration>
+    <configuration name="ProtoTypeTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ProtoTypeTest" file="$PROJECT_DIR$/Tests/ProtoTypeTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ProtoTypeTest" />
         <item itemvalue="PHPUnit.ObjectPoolTest" />
         <item itemvalue="PHPUnit.FactoryMethodTest" />
         <item itemvalue="PHPUnit.FactoryMethodTest.testCanBuildBenzBrand" />
