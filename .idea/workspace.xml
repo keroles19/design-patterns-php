@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e45a93-b313-434e-9c8d-ea6314aed017" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Creational/SimpleFactory/Car.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/SimpleFactory/CarFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/SimpleFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/StaticFactory/BenzCar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/StaticFactory/BmwCar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/StaticFactory/CarInterFace.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/StaticFactory/StaticFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/StaticFactoryTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
     </list>
@@ -72,13 +74,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Creational/StaticFactory" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Courses\Design Pattern\design-patterns-php\Creational\StaticFactory" />
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Tests" />
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Creational\SimpleFactory" />
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Creational" />
@@ -88,19 +91,7 @@
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.SimpleFactory">
-    <configuration name="FactoryMethodTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="FactoryMethodTest" file="$PROJECT_DIR$/Tests/FactoryMethodTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <configuration name="FactoryMethodTest.testCanBuildBenzBrand" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="FactoryMethodTest" file="$PROJECT_DIR$/Tests/FactoryMethodTest.php" method="testCanBuildBenzBrand" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ObjectPoolTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="ObjectPoolTest" file="$PROJECT_DIR$/Tests/ObjectPoolTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHPUnit.StaticFactoryTest.testCanCreateBenzWithStaticFactory (1)">
     <configuration name="ProtoTypeTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="ProtoTypeTest" file="$PROJECT_DIR$/Tests/ProtoTypeTest.php" scope="Class" />
       <method v="2" />
@@ -109,13 +100,25 @@
       <TestRunner class="SimpleFactory" file="$PROJECT_DIR$/Tests/SimpleFactory.php" scope="Class" />
       <method v="2" />
     </configuration>
+    <configuration name="StaticFactoryTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="StaticFactory\StaticFactoryTest" file="$PROJECT_DIR$/Tests/StaticFactoryTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="StaticFactoryTest.testCanCreateBenzWithStaticFactory (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="StaticFactoryTest" file="$PROJECT_DIR$/Tests/StaticFactoryTest.php" method="testCanCreateBenzWithStaticFactory" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="StaticFactoryTest.testCanCreateBenzWithStaticFactory" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="StaticFactory\StaticFactoryTest" file="$PROJECT_DIR$/Tests/StaticFactoryTest.php" method="testCanCreateBenzWithStaticFactory" scope="Method" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.StaticFactoryTest.testCanCreateBenzWithStaticFactory (1)" />
+        <item itemvalue="PHPUnit.StaticFactoryTest" />
+        <item itemvalue="PHPUnit.StaticFactoryTest.testCanCreateBenzWithStaticFactory" />
         <item itemvalue="PHPUnit.SimpleFactory" />
         <item itemvalue="PHPUnit.ProtoTypeTest" />
-        <item itemvalue="PHPUnit.ObjectPoolTest" />
-        <item itemvalue="PHPUnit.FactoryMethodTest" />
-        <item itemvalue="PHPUnit.FactoryMethodTest.testCanBuildBenzBrand" />
       </list>
     </recent_temporary>
   </component>
