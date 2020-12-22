@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e45a93-b313-434e-9c8d-ea6314aed017" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethod/BenzBrandFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethod/BenzCarBrand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethod/BmwBrandFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethod/BmwCarBrand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethod/BrandFactoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethod/CarBrandInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/FactoryMethodTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/ObjectPool/Car.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/ObjectPool/CarPool.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/ObjectPoolTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,10 +79,11 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Tests" />
+      <recent name="D:\Courses\Design Pattern\design-patterns-php\Creational" />
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Creational\FactoryMethod" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.FactoryMethodTest">
+  <component name="RunManager" selected="PHPUnit.ObjectPoolTest">
     <configuration name="FactoryMethodTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="FactoryMethodTest" file="$PROJECT_DIR$/Tests/FactoryMethodTest.php" scope="Class" />
       <method v="2" />
@@ -104,8 +101,13 @@
       <TestRunner class="FactoryMethodTest" coverage_engine="PHPDBG" file="$PROJECT_DIR$/Tests/FactoryMethodTest.php" method="testCanBuildBmwBrand" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="ObjectPoolTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ObjectPoolTest" file="$PROJECT_DIR$/Tests/ObjectPoolTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ObjectPoolTest" />
         <item itemvalue="PHPUnit.FactoryMethodTest" />
         <item itemvalue="PHPUnit.FactoryMethodTest.testCanBuildBenzBrand" />
         <item itemvalue="PHPUnit.FactoryMethodTest.testCanBuildBmwBrand" />
@@ -138,5 +140,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
