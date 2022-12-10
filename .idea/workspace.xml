@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b2e45a93-b313-434e-9c8d-ea6314aed017" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Creational/StaticFactory/BenzCar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/StaticFactory/BmwCar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/StaticFactory/CarInterFace.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/StaticFactory/StaticFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/StaticFactoryTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/StaticFactory/Counter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Singleton.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/StaticFactory/BenzCar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Singleton/BenzCar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/StaticFactory/BmwCar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Singleton/BmwCar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/StaticFactory/CarInterFace.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Singleton/CarInterFace.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/StaticFactory/StaticFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Singleton/StaticFactory.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,35 +72,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Creational/StaticFactory" />
-    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary": "PHPUnit",
+    "last_opened_file_path": "/media/kero/CS/Courses/Design Pattern/design-patterns-php/Creational",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Creational" />
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Creational\StaticFactory" />
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Tests" />
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Creational\SimpleFactory" />
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Creational" />
-      <recent name="D:\Courses\Design Pattern\design-patterns-php\Creational\FactoryMethod" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.StaticFactoryTest.testCanCreateBenzWithStaticFactory (1)">
-    <configuration name="ProtoTypeTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="ProtoTypeTest" file="$PROJECT_DIR$/Tests/ProtoTypeTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHPUnit.Singleton.test_single_ton_one_instace">
     <configuration name="SimpleFactory" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="SimpleFactory" file="$PROJECT_DIR$/Tests/SimpleFactory.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Singleton.test_single_ton_one_instace" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Singleton" file="$PROJECT_DIR$/Tests/Singleton.php" method="test_single_ton_one_instace" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="StaticFactoryTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.Singleton.test_single_ton_one_instace" />
         <item itemvalue="PHPUnit.StaticFactoryTest.testCanCreateBenzWithStaticFactory (1)" />
         <item itemvalue="PHPUnit.StaticFactoryTest" />
         <item itemvalue="PHPUnit.StaticFactoryTest.testCanCreateBenzWithStaticFactory" />
         <item itemvalue="PHPUnit.SimpleFactory" />
-        <item itemvalue="PHPUnit.ProtoTypeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +148,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
