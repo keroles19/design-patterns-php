@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b2e45a93-b313-434e-9c8d-ea6314aed017" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Creational/ProtoType/AutomaticCar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/ProtoType/CarProtoType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/ProtoType/ManualCar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/ProtoTypeTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/ProtoType/AutomaticCar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/ProtoType/CarProtoType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/ProtoType/ManualCar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ProtoTypeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ProtoTypeTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.1">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
@@ -68,16 +71,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tests" />
-    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Tests" />
@@ -85,25 +84,17 @@
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Creational\FactoryMethod" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Creational" />
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.ProtoTypeTest">
+  <component name="RunManager" selected="PHPUnit.ProtoTypeTest.test_copy_instance">
     <configuration name="FactoryMethodTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="FactoryMethodTest" file="$PROJECT_DIR$/Tests/FactoryMethodTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="FactoryMethodTest.testCanBuildBenzBrand" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="FactoryMethodTest" file="$PROJECT_DIR$/Tests/FactoryMethodTest.php" method="testCanBuildBenzBrand" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="FactoryMethodTest.testCanBuildBmwBrand" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <CommandLine>
-        <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="PHP 7.4" />
-        </PhpTestInterpreterSettings>
-      </CommandLine>
-      <TestRunner class="FactoryMethodTest" coverage_engine="PHPDBG" file="$PROJECT_DIR$/Tests/FactoryMethodTest.php" method="testCanBuildBmwBrand" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="ObjectPoolTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -114,13 +105,17 @@
       <TestRunner class="ProtoTypeTest" file="$PROJECT_DIR$/Tests/ProtoTypeTest.php" scope="Class" />
       <method v="2" />
     </configuration>
+    <configuration name="ProtoTypeTest.test_copy_instance" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ProtoTypeTest" file="$PROJECT_DIR$/Tests/ProtoTypeTest.php" method="test_copy_instance" scope="Method" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ProtoTypeTest.test_copy_instance" />
         <item itemvalue="PHPUnit.ProtoTypeTest" />
         <item itemvalue="PHPUnit.ObjectPoolTest" />
         <item itemvalue="PHPUnit.FactoryMethodTest" />
         <item itemvalue="PHPUnit.FactoryMethodTest.testCanBuildBenzBrand" />
-        <item itemvalue="PHPUnit.FactoryMethodTest.testCanBuildBmwBrand" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +145,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
