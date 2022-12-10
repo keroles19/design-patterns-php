@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2e45a93-b313-434e-9c8d-ea6314aed017" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethodExampleTwo/BankA.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethodExampleTwo/BankB.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethodExampleTwo/BankFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethodExampleTwo/IBank.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethodExampleTwo/IBankFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/FactoryMethodExampleTwoTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/ProtoType/AutomaticCar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/ProtoType/CarProtoType.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/ProtoType/ManualCar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/ProtoTypeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ProtoTypeTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +76,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "last_opened_file_path": "/media/kero/CS/Courses/Design Pattern/design-patterns-php/Creational/FactoryMethodEampleTwo",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "php.override.implement.member.chooser.php.doc": "NONE"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Creational/FactoryMethodEampleTwo" />
+      <recent name="$PROJECT_DIR$/Creational" />
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Tests" />
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Creational" />
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Creational\FactoryMethod" />
@@ -88,13 +94,13 @@
       <recent name="D:\Courses\Design Pattern\design-patterns-php\Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.ProtoTypeTest.test_copy_instance">
-    <configuration name="FactoryMethodTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="FactoryMethodTest" file="$PROJECT_DIR$/Tests/FactoryMethodTest.php" scope="Class" />
+  <component name="RunManager" selected="PHPUnit.FactoryMethodExampleTwoTest.test_can_make_withdraw_by_factory_method">
+    <configuration name="FactoryMethodExampleTwoTest.test_can_make_withdraw_by_factory_method" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="FactoryMethodExampleTwoTest" file="$PROJECT_DIR$/Tests/FactoryMethodExampleTwoTest.php" method="test_can_make_withdraw_by_factory_method" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="FactoryMethodTest.testCanBuildBenzBrand" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="FactoryMethodTest" file="$PROJECT_DIR$/Tests/FactoryMethodTest.php" method="testCanBuildBenzBrand" scope="Method" />
+    <configuration name="FactoryMethodTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="FactoryMethodTest" file="$PROJECT_DIR$/Tests/FactoryMethodTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="ObjectPoolTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -111,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.FactoryMethodExampleTwoTest.test_can_make_withdraw_by_factory_method" />
         <item itemvalue="PHPUnit.ProtoTypeTest.test_copy_instance" />
         <item itemvalue="PHPUnit.ProtoTypeTest" />
         <item itemvalue="PHPUnit.ObjectPoolTest" />
         <item itemvalue="PHPUnit.FactoryMethodTest" />
-        <item itemvalue="PHPUnit.FactoryMethodTest.testCanBuildBenzBrand" />
       </list>
     </recent_temporary>
   </component>
