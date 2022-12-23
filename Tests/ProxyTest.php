@@ -1,13 +1,8 @@
 <?php
 
-use Creational\Builder\BenzBuilder;
-use Creational\Builder\BmwBuilder;
-use Creational\Builder\Modules\BenzCar;
-use Creational\Builder\Modules\BmwCar;
-use Creational\Builder\ProduceBuilder;
 use PHPUnit\Framework\TestCase;
-use Structural\Proxy;
-use Structural\RealSubject;
+use Structural\Proxy\Proxy;
+use Structural\Proxy\RealSubject;
 
 class ProxyTest extends TestCase
 {

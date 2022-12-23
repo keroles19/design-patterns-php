@@ -1,6 +1,6 @@
 <?php
 
-namespace Structural;
+namespace Structural\Proxy;
 
 interface SubjectInterface
 {
