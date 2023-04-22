@@ -1,8 +1,6 @@
 <?php
 
-namespace Creational\FactoryMethodExampleTwo;
-
-use phpDocumentor\Reflection\Types\This;
+namespace Creational\FactoryMethod\Bank;
 
 class BankFactory implements IBankFactory
 {

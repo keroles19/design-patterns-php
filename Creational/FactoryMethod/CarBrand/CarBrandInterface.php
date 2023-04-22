@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Creational\FactoryMethod;
+namespace Creational\FactoryMethod\CarBrand;
 
 
 interface CarBrandInterface

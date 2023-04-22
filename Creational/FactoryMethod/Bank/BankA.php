@@ -1,6 +1,6 @@
 <?php
 
-namespace Creational\FactoryMethodExampleTwo;
+namespace Creational\FactoryMethod\Bank;
 
 class BankA implements IBank
 {

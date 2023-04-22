@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Creational\FactoryMethod;
+namespace Creational\FactoryMethod\CarBrand;
 
 
 class BmwCarBrand implements CarBrandInterface
