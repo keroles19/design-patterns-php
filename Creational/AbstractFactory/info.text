@@ -1,0 +1,28 @@
+---- Abstract Factory :
+
+--definition:
+"is a creational design pattern that lets you produce families of related objects
+without specifying their concrete classes."
+
+"Abstract Factory defines an interface for creating all distinct products but
+leaves the actual product creation to concrete factory classes.
+Each factory type corresponds to a certain product variety. "
+
+-- Examples
+1- Notification user  using ( sms or mail) extends for factory Method (vodafone, orange, we .... )
+2- individual furniture objects so that they match other objects of the same family.
+3- creating cross-platform UI elements without coupling the client code to concrete UI classes
+
+
+-- Pros and Cons
+--- Props
+1- avoid tight coupling between concrete products and client code.
+2- Single Responsibility Principle
+3- Open/Closed Principle
+--- Cons
+1-The code may become more complicated since you need to introduce a lot of new subclasses to implement the pattern. The best case scenario is when you’re introducing the pattern into an existing hierarchy of creator classes.
+
+-- When Use It
+1- your code needs to work with various families of related products, but you don’t want it to depend on the concrete classes of those products—they might
+be unknown beforehand or you simply want to allow for future extensibility.
+2- you have a class with a set of Factory Methods that blur its primary responsibility.

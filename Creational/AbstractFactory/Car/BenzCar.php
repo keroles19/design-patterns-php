@@ -1,5 +1,5 @@
 <?php
-namespace Creational\AbstractFactory;
+namespace Creational\AbstractFactory\Car;
 
 
 class BenzCar implements CarInterFace{

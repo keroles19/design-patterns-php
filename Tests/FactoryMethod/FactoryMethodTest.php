@@ -1,5 +1,7 @@
 <?php
 
+namespace FactoryMethod;
+
 use Creational\FactoryMethod\CarBrand\BenzBrandFactory;
 use Creational\FactoryMethod\CarBrand\BenzCarBrand;
 use Creational\FactoryMethod\CarBrand\BmwBrandFactory;
