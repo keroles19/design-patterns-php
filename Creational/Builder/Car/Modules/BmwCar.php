@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Creational\Builder\Modules;
+namespace Creational\Builder\Car\Modules;
 
 
 class BmwCar extends Car

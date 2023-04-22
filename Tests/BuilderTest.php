@@ -1,10 +1,10 @@
 <?php
 
-use Creational\Builder\BenzBuilder;
-use Creational\Builder\BmwBuilder;
-use Creational\Builder\Modules\BenzCar;
-use Creational\Builder\Modules\BmwCar;
-use Creational\Builder\ProduceBuilder;
+use Creational\Builder\Car\BenzBuilder;
+use Creational\Builder\Car\BmwBuilder;
+use Creational\Builder\Car\Modules\BenzCar;
+use Creational\Builder\Car\Modules\BmwCar;
+use Creational\Builder\Car\ProduceBuilder;
 use PHPUnit\Framework\TestCase;
 
 class BuilderTest extends TestCase

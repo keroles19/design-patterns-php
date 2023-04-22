@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Creational\Builder;
+namespace Creational\Builder\Car;
 
 
-use Creational\Builder\Modules\BenzCar;
-use Creational\Builder\Modules\Car;
+use Creational\Builder\Car\Modules\BenzCar;
+use Creational\Builder\Car\Modules\Car;
 
 class BenzBuilder implements CarBuilderInterface
 {

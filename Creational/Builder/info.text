@@ -1,0 +1,28 @@
+---- Builder :
+
+--definition:
+"create Objects That have many optional or mandatory properties instead of using a constructor with many parameters"
+"is a creational design pattern, which allows constructing complex objects step by step."
+"Separate The Construction of complex object from its representations so that the same construction process
+ can create different representations  (Build complex objects step by step"
+
+
+-- Examples
+build house with many parameters -->   new House(window, doors, rooms, hasGarden, hasSwimPool, ...)
+new House (2, 3, 4, null, null, null ,... )
+new House (2, 3, 2, true , ...... )
+
+
+-- Pros and Cons
+--- Props
+1-  You can construct objects step-by-step, defer construction steps or run steps recursively.
+2-  You can reuse the same construction code when building various representations of products.
+3- single Responsibility Principle
+--- Cons
+1- The overall complexity of the code increases since the pattern requires creating multiple new classes.
+
+
+-- When Use It
+1- want your code to be able to create different representations of
+some product (for example, stone and wooden houses).
+2- construct Composite trees or other complex objects.
