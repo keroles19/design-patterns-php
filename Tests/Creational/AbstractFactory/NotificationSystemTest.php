@@ -1,17 +1,14 @@
 <?php
 
-namespace AbstractFactory;
+namespace Creational\AbstractFactory;
 
-use Creational\AbstractFactory\Car\BenzCar;
-use Creational\AbstractFactory\Car\BmwCar;
-use Creational\AbstractFactory\Car\CarAbstractFactory;
 use Creational\AbstractFactory\NotificationSystem\Gmail;
 use Creational\AbstractFactory\NotificationSystem\NotificationFactory;
 use Creational\AbstractFactory\NotificationSystem\Vodafone;
 use Exception;
 use PHPUnit\Framework\TestCase;
 
-class AbstractFactoryTest extends TestCase
+class NotificationSystemTest extends TestCase
 {
 
     /**

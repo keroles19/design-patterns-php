@@ -1,12 +1,12 @@
 <?php
 
-namespace FactoryMethod;
+namespace Creational\FactoryMethod;
 
 use Creational\FactoryMethod\Bank\BankA;
 use Creational\FactoryMethod\Bank\BankFactory;
 use PHPUnit\Framework\TestCase;
 
-class FactoryMethodExampleTwoTest extends TestCase
+class BankTest extends TestCase
 {
 
     public function test_can_make_withdraw_by_factory_method()

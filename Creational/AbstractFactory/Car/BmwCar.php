@@ -1,10 +1,13 @@
 <?php
+
 namespace Creational\AbstractFactory\Car;
 
 
-class BmwCar implements CarInterFace{
+class BmwCar implements CarInterFace
+{
 
     private $price;
+
     public function __construct($price)
     {
         $this->price = $price;

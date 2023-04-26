@@ -11,10 +11,10 @@ abstract class  SocialNetworkPoster
      */
     abstract public function getSocialNetwork(): SocialNetworkConnector;
 
-    public function post($content)
+    public function post()
     {
         $social = $this->getSocialNetwork();
         $social->login();
-        return  $social->creatPost($content);
+        return  $social->creatPost();
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace FactoryMethod;
+namespace Creational\FactoryMethod;
 
 use Creational\FactoryMethod\CarBrand\BenzBrandFactory;
 use Creational\FactoryMethod\CarBrand\BenzCarBrand;
@@ -8,7 +8,7 @@ use Creational\FactoryMethod\CarBrand\BmwBrandFactory;
 use Creational\FactoryMethod\CarBrand\BmwCarBrand;
 use PHPUnit\Framework\TestCase;
 
-class FactoryMethodTest extends TestCase
+class CarBrandTest extends TestCase
 {
     public function testCanBuildBmwBrand()
     {

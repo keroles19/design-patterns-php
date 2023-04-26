@@ -17,7 +17,7 @@ class FacebookConnector implements SocialNetworkConnector
         return "Send HTTP API request to log in user $this->email with " . "password $this->pass";
     }
 
-    public function creatPost($content): string
+    public function creatPost(): string
     {
         return "Send HTTP API requests to create a post in Facebook timeline";
 

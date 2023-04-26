@@ -1,11 +1,7 @@
 <?php
 
-namespace FactoryMethod;
+namespace Creational\FactoryMethod;
 
-use Creational\FactoryMethod\CarBrand\BenzBrandFactory;
-use Creational\FactoryMethod\CarBrand\BenzCarBrand;
-use Creational\FactoryMethod\CarBrand\BmwBrandFactory;
-use Creational\FactoryMethod\CarBrand\BmwCarBrand;
 use Creational\FactoryMethod\MobileOperators\NotificationFactory;
 use Creational\FactoryMethod\MobileOperators\OrangeNotification;
 use Creational\FactoryMethod\MobileOperators\VodafoneNotification;
@@ -13,7 +9,7 @@ use Creational\FactoryMethod\MobileOperators\WeNotification;
 use Exception;
 use PHPUnit\Framework\TestCase;
 
-class MobileNotificationFactoryMethodTest extends TestCase
+class MobileOperatorsTest extends TestCase
 {
     /**
      * @throws Exception

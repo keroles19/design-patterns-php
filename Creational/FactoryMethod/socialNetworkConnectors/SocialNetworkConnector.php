@@ -13,5 +13,5 @@ interface SocialNetworkConnector
 
     public function logout();
 
-    public function creatPost($content);
+    public function creatPost();
 }
