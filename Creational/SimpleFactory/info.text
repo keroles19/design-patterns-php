@@ -1,0 +1,21 @@
+---- simple factory pattern :
+
+--definition:
+"a class simply creates the object you want to use,
+ that allow the interfaces for creating objects without exposing the creation logic to the client"
+ - this is simple other way form using "new "
+
+-- Examples
+1- Messages to ( Orange , Vodafone, Etisalat, We )
+2- Payment GateWay ( Bank, Atm )
+
+
+-- when use it
+You can use the simple factory pattern when you have a set of related classes that
+share a common interface or parent class, and you want to create objects of these classes
+dynamically based on some input parameters. It can also be useful when you want to encapsulate the
+object creation logic and make it easier to change or extend in the future.
+
+
+
+

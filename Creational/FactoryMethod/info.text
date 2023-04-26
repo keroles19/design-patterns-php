@@ -5,9 +5,8 @@
  but allows subclasses to alter the type of objects that will be created."
 
 -- Examples
-1- Messages to ( Orange , Vodafone, Etisalat, We )
-2- Payment GateWay ( Bank, Atm )
-3- logistics management application. [ create Truck and Ship Class Transportation )
+1- Create Car Brand
+2- logistics management application. [ create Truck and Ship Class Transportation )
 
 -- Pros and Cons
 --- Props

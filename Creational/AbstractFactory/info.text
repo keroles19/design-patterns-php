@@ -8,6 +8,8 @@ without specifying their concrete classes."
 leaves the actual product creation to concrete factory classes.
 Each factory type corresponds to a certain product variety. "
 
+"create list of related object with one function for each class can be have subclasses"
+
 -- Examples
 1- Notification user  using ( sms or mail) extends for factory Method (vodafone, orange, we .... )
 2- individual furniture objects so that they match other objects of the same family.
