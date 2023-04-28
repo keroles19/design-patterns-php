@@ -1,0 +1,34 @@
+---- Adapter
+     Also known as: Wrapper
+
+
+--definition:
+- "is a structural design pattern that allows objects with incompatible interfaces to collaborate."
+- "is a structural design pattern, which allows incompatible objects to collaborate."
+
+-- Examples
+1- stock market monitoring app. The app downloads the stock data from multiple sources in XML format
+   and then displays nice-looking charts and diagrams for the user.
+   At some point, you decide to improve the app by integrating a smart 3rd-party analytics library.
+   But there’s a catch: the analytics library only works with data in JSON format.
+   { Suppose you have an existing class JSONConverter that can convert data to and from JSON format,
+    but you want to use this class to work with XML data as well. You can create an adapter class XMLConverter
+     that adapts the JSONConverter to work with XML data. }
+
+2- Book System Reader (Book : getPage(), open(), turnPage(), -- EBook : pressNext(), getPage(), unlock() )
+   need make adapter for set two object are compatible
+
+3- When Use any 3-party packages
+
+-- Pros and Cons
+--- Props
+1- Single Responsibility Principle.
+2- Open/Closed Principle.
+--- Cons
+1- The overall complexity of the code increases since the pattern requires creating multiple new classes.
+
+
+-- When Use It
+1- you want to use some existing class, but its interface isn’t compatible with the rest of your code.
+2-  when you want to reuse several existing subclasses that lack some common functionality that can’t be added to the superclass.
+
