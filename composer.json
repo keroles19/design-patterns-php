@@ -7,8 +7,6 @@
             "email": "kerolesa_atef@outlook.com"
         }
     ],
-    "require": {},
-    
     "require-dev": {
         "phpunit/phpunit": "9.5"
     },
@@ -17,5 +15,19 @@
             "Creational\\" : "Creational",
             "Structural\\" : "Structural"
         }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "Structural/Adapter/ThirdPartyLibs/BasicAuthLib"
+        },
+        {
+            "type": "path",
+            "url": "Structural/Adapter/ThirdPartyLibs/TokenAuthLib"
+        }
+    ],
+    "require": {
+        "keroles/token-auth-lib" : "dev-master",
+        "keroles/basic-auth-lib" : "dev-master"
     }
 }

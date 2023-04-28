@@ -1,0 +1,17 @@
+{
+    "name": "keroles/basic-auth-lib",
+    "description": "test for adapter",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "BasicAuthLib\\": "BasicAuth"
+        }
+    },
+    "authors": [
+        {
+            "name": "keroles19",
+            "email": "kerolesatef200@gmail.com"
+        }
+    ],
+    "require": {}
+}

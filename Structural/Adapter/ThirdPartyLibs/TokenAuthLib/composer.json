@@ -1,0 +1,17 @@
+{
+    "name": "keroles/token-auth-lib",
+    "description": "test for adapter",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "TokenAuthLib\\": "TokenAuth"
+        }
+    },
+    "authors": [
+        {
+            "name": "keroles19",
+            "email": "kerolesatef200@gmail.com"
+        }
+    ],
+    "require": {}
+}

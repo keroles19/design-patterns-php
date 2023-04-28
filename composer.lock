@@ -4,8 +4,59 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a84245e29ca8f1521eea5dd0c48d9a90",
-    "packages": [],
+    "content-hash": "6b3bc2c79366fb8b84c4170180c3f7df",
+    "packages": [
+        {
+            "name": "keroles/basic-auth-lib",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "Structural/Adapter/ThirdPartyLibs/BasicAuthLib",
+                "reference": "bd3fdc539f93a22810df63eb682ae2702cc808fd"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicAuthLib\\": "BasicAuth"
+                }
+            },
+            "authors": [
+                {
+                    "name": "keroles19",
+                    "email": "kerolesatef200@gmail.com"
+                }
+            ],
+            "description": "test for adapter",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "keroles/token-auth-lib",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "Structural/Adapter/ThirdPartyLibs/TokenAuthLib",
+                "reference": "36e12e8355772b41e2e57df10fec05d4b4a2be5e"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TokenAuthLib\\": "TokenAuth"
+                }
+            },
+            "authors": [
+                {
+                    "name": "keroles19",
+                    "email": "kerolesatef200@gmail.com"
+                }
+            ],
+            "description": "test for adapter",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/deprecations",
@@ -584,16 +635,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.20.1",
+            "version": "1.20.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "57f6787f0bb6431905a18aa7caea25dcd2bd59e0"
+                "reference": "6c04009f6cae6eda2f040745b6b846080ef069c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/57f6787f0bb6431905a18aa7caea25dcd2bd59e0",
-                "reference": "57f6787f0bb6431905a18aa7caea25dcd2bd59e0",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/6c04009f6cae6eda2f040745b6b846080ef069c2",
+                "reference": "6c04009f6cae6eda2f040745b6b846080ef069c2",
                 "shasum": ""
             },
             "require": {
@@ -623,9 +674,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.20.1"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.20.3"
             },
-            "time": "2023-04-22T09:05:52+00:00"
+            "time": "2023-04-25T09:01:03+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -2123,7 +2174,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "keroles/token-auth-lib": 20,
+        "keroles/basic-auth-lib": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
