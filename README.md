@@ -2,19 +2,19 @@
 #### This is a repository for Design Patterns using PHP. It includes examples and unit tests for each pattern.
 
 
-- [x] Creational Design Patterns
-   - [x] Factory Method 
-   - [x] Abstract Factory
-   - [x] Simple Factory
-   - [x] Static Factory
-   - [x] Builder
-   - [x] Prototype
-   - [x] Singleton
+- [X] Creational Design Patterns
+   - [X] Factory Method 
+   - [X] Abstract Factory
+   - [X] Simple Factory
+   - [X] Static Factory
+   - [X] Builder
+   - [X] Prototype
+   - [X] Singleton
 
 
 - [ ] Structural Design Patterns
-   - [ ] Adapter [ Wrapper ]   
-   - [ ] Bridge
+   - [X] Adapter [ Wrapper ]   
+   - [X] Bridge
    - [ ] Composite [ Object Tree ]
    - [ ] Decorator
    - [ ] Facade

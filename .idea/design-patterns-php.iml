@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Structural" isTestSource="false" packagePrefix="Structural\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Structural/Adapter/ThirdPartyLibs/BasicAuthLib/BasicAuth" isTestSource="false" packagePrefix="BasicAuthLib\" />
+      <sourceFolder url="file://$MODULE_DIR$/Structural/Adapter/ThirdPartyLibs/TokenAuthLib/TokenAuth" isTestSource="false" packagePrefix="TokenAuthLib\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpspec/prophecy" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpdocumentor/reflection-docblock" />

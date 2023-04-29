@@ -1,0 +1,26 @@
+---- Bridge
+
+
+--definition:
+- "is a structural That Decouple an abstraction from its implementation so that the two can vary independently"
+
+-- Examples
+1- Color Car ( BmwRedCar , BenzBlueCar , ..)
+2- Drawer Shape ( Circle , Square -->  CircleWindows, CircleMac , Circle.... , SquareWindows, SquareMac, Square...,)
+
+
+-- Pros and Cons
+--- Props
+1- You can create platform-independent classes and apps.
+2- The client code works with high-level abstractions. It isn’t exposed to the platform details.
+3- Open/Closed Principle.
+4- Single Responsibility Principle.
+--- Cons
+1-  You might make the code more complicated by applying the pattern to a highly cohesive class.
+
+
+-- When Use It
+1- when you want to divide and organize a monolithic class that has several variants of some functionality
+  (for example, if the class can work with various database servers).
+2- when you need to extend a class in several orthogonal (independent) dimensions.
+3- when you need to be able to switch implementations at runtime.
