@@ -1,0 +1,16 @@
+---- Data Mapper
+
+
+--definition:
+ "A Data Mapper, is a Data Access Layer that performs bidirectional transfer of data between a persistent data store
+  (often a relational database) and an in memory data representation (the domain layer)"
+
+-- Examples
+
+2- DB Object Relational Mapper (ORM) : Doctrine2 uses DAO named as “EntityRepository”
+
+--- Props
+1- keep the in memory representation and the persistent data store independent of each other and the data mapper itself.
+2- data store independent of each other and the data mapper itself. The layer is composed of one or more mappers (or Data Access Objects), performing the data transfer. Mapper implementations vary in scope. Generic mappers will handle many different domain entity types, dedicated mappers will handle one or a few.
+
+
