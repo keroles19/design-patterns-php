@@ -1,0 +1,27 @@
+---- Composite
+     Also known as: Object Tree
+
+
+--definition:
+- "To treat a group of objects the same way as a single instance of the object."
+- "is a structural design pattern that lets you compose objects into tree structures and then work with these structures
+    as if they were individual objects."
+
+-- Examples
+
+2- a form class instance handles all its form elements like a single instance of the form,
+   when render() is called, it subsequently runs through all its child elements and calls render() on them
+
+-- Pros and Cons
+--- Props
+1- Single Responsibility Principle.
+2- Open/Closed Principle.
+--- Cons
+1- The overall complexity of the code increases since the pattern requires creating multiple new classes.
+
+
+-- When Use It
+1- when you have to implement a tree-like object structure.
+2- when you want the client code to treat both simple and complex elements uniformly.
+
+
