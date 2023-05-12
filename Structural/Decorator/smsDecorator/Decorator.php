@@ -1,6 +1,6 @@
 <?php
 
-namespace Structural\Decorator;
+namespace Structural\Decorator\smsDecorator;
 
 class Decorator implements modifier
 {

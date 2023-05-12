@@ -4,7 +4,6 @@ use PHPUnit\Framework\TestCase;
 use Structural\Adapter\BookSystem\EBookAdapter;
 use Structural\Adapter\BookSystem\KindleBook;
 use Structural\Adapter\BookSystem\PaperBook;
-use Structural\Decorator\Client;
 
 class BookSystemTest extends TestCase
 {
