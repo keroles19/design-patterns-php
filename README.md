@@ -15,8 +15,9 @@
 - [ ] Structural Design Patterns
    - [X] Adapter [ Wrapper ]   
    - [X] Bridge
-   - [ ] Composite [ Object Tree ]
-   - [ ] Decorator
+   - [X] Composite [ Object Tree ]
+   - [X] Decorator
+   - [X] Dependency - Injection
    - [ ] Facade
    - [ ] Flyweight [Cache]
    - [ ] Proxy

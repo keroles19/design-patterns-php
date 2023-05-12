@@ -1,0 +1,22 @@
+---- Dependency Injection
+
+
+--definition:
+  "To implement a loosely coupled architecture in order to get better testable, maintainable and extendable code."
+
+- Dependency Injection is a design pattern in software engineering that is used to manage dependencies between classes and objects. In this pattern,
+  rather than creating an object's dependencies within the object itself, those dependencies are "injected" into the object from the outside.
+  This makes the object more modular and flexible, as it can easily be configured to use different dependencies without requiring any changes to the object's code.
+
+-  There are three common types of Dependency Injection: Constructor Injection, Setter Injection,
+   and Interface Injection. Constructor Injection involves passing dependencies into an object's constructor,
+   while Setter Injection involves passing them into a setter method. Interface Injection, also known as Property Injection,
+   involves creating an interface for the object's dependencies and requiring any objects that use the interface to provide their own implementation
+
+- Dependency Injection is often used in conjunction with Inversion of Control (IoC) containers or frameworks,
+  which handle the injection of dependencies automatically based on configuration settings or annotations. This approach allows for more modular and maintainable software design,
+  as objects can be easily tested and modified without affecting the rest of the codebase
+
+-- Examples
+1- DatabaseConfiguration gets injected and DatabaseConnection will get all that it needs from $config. Without DI, the configuration would be created directly in DatabaseConnection,
+  which is not very good for testing and extending it.
