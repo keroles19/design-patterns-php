@@ -18,7 +18,8 @@
    - [X] Composite [ Object Tree ]
    - [X] Decorator
    - [X] Dependency - Injection
-   - [X] Facade
+   - [X] Facade 
+   - [X] Fluent Interface
    - [ ] Flyweight [Cache]
    - [ ] Proxy
 
