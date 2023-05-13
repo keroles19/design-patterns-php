@@ -1,0 +1,24 @@
+---- Decorator
+
+
+--definition:
+     "is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes."
+     "is a structural design pattern that provides a simplified (but limited) interface to a complex system of classes, library or framework."
+     "The primary goal of a Facade Pattern is not to avoid you having to read the manual of a complex API. It’s only a side-effect.
+     The first goal is to reduce coupling and follow the Law of Demeter."
+
+
+-- Examples
+1- image converter [ simple interface deal with all convert method ]
+2- Computer Power On Or Off [  turnOn , turnOff ] in one facade
+
+
+-- Pros and Cons
+--- Props
+1-  You can isolate your code from the complexity of a subsystem.
+--- Cons
+1- A facade can become a god object coupled to all classes of an app.
+
+-- When Use It
+1- when you need to have a limited but straightforward interface to a complex subsystem.
+2- when you want to structure a subsystem into layers.

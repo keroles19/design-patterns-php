@@ -12,18 +12,4 @@
 -- Examples
 1- Color Car Companion  ( modify sub class and pass to parent )
 
--- Pros and Cons
---- Props
-1- You can extend an object’s behavior without making a new subclass.
-2- You can add or remove responsibilities from an object at runtime.
-3- You can combine several behaviors by wrapping an object into multiple decorators.
-4- Single Responsibility Principle.
---- Cons
-1- It’s hard to remove a specific wrapper from the wrappers stack.
-2- It’s hard to implement a decorator in such a way that its behavior doesn’t depend on the order in the decorators stack.
-3- The initial configuration code of layers might look pretty ugly.
-
--- When Use ?
-1- when you need to be able to assign extra behaviors to objects at runtime without breaking the code that uses these objects
-2- when it’s awkward or not possible to extend an object’s behavior using inheritance.
 
