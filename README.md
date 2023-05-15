@@ -20,8 +20,9 @@
    - [X] Dependency - Injection
    - [X] Facade 
    - [X] Fluent Interface
+   - [X] Proxy
    - [ ] Flyweight [Cache]
-   - [ ] Proxy
+  
 
 - [ ] Behavioral Design Patterns
    - [ ] Chain of Responsibility

@@ -1,6 +1,6 @@
 <?php
 
-namespace Structural\Proxy;
+namespace Structural\Proxy\HandlingRequest;
 
 class RealSubject implements SubjectInterface
 {

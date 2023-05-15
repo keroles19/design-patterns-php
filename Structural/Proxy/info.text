@@ -1,0 +1,37 @@
+---- Proxy
+
+
+--definition:
+     "Provide a substitute or placeholder for another object to control access on it
+      allowing you to perform something either before or after the request gets through to
+      the original object" like A credit card is a proxy for a bank account or middleware in laravel or
+      caching
+
+
+
+-- Examples
+1- Handling Request ( checkAccess before sending request ) ( log behavior after process)
+2- Bank Account
+
+
+-- Pros and Cons
+--- Props
+1-  You can control the service object without clients knowing about it.
+2-  You can manage the lifecycle of the service object when clients don’t care about it.
+3-  The proxy works even if the service object isn’t ready or is not available.
+4-  Open/Closed Principle.
+--- Cons
+1- The code may become more complicated since you need to introduce a lot of new classes.
+2- The response from the service might get delayed.
+
+-- When Use It
+1- when you have a heavyweight service object that wastes system resources by being always up,
+   even though you only need it from time to time.
+    Instead of creating the object when the app launches, you can delay the object’s initialization to a time when it’s really needed.
+2- when you want only specific clients to be able to use the service object; for instance, when your objects are crucial parts of an operating system
+   and clients are various launched applications (including malicious ones).
+3- when the service object is located on a remote server.
+4- when you want to keep a history of requests to the service object.
+5- when you need to cache results of client requests and manage the life cycle of this cache,
+   especially if results are quite large.
+6- when you need to be able to dismiss a heavyweight object once there are no clients that use it.

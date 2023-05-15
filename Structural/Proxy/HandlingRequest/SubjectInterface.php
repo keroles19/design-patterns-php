@@ -1,9 +1,8 @@
 <?php
 
-namespace Structural\Proxy;
+namespace Structural\Proxy\HandlingRequest;
 
 interface SubjectInterface
 {
     public function request();
-
 }
