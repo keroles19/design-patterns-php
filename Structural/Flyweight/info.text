@@ -1,0 +1,26 @@
+---- Flyweight
+     Also known as: Cache
+
+
+--definition:
+- "Use sharing to support large numbers of fine-grained objects efficiently"
+
+-- Examples
+1- Discount calc check --> check discount then save object to cache memory for next check
+2- TextFactory
+
+
+-- Pros and Cons
+--- Props
+1- You can save lots of RAM, assuming your program has tons of similar objects.
+
+--- Cons
+1- You might be trading RAM over CPU cycles when some of the context data needs to be recalculated each time somebody calls a flyweight method.
+2- The code becomes much more complicated. New team members will always be wondering why the state of an entity was separated in such a way.
+
+
+-- When Use It
+1- when your program must support a huge number of objects which barely fit into available RAM.
+2- an application needs to spawn a huge number of similar objects
+3- this drains all available RAM on a target device
+4- the objects contain duplicate states which can be extracted and shared between multiple objects
